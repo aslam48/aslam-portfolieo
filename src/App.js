@@ -1,11 +1,17 @@
 import './App.css';
 import Header from './Component/header/Header.jsx'
+import Home from './Component/Home/Home.jsx'
 
 function App() {
   return (
-    <div className="App">
+    <>
      <Header/>
-    </div>
+
+      {/* home */}
+     <main className='main'>
+     <Home/>
+     </main>
+    </>
   );
 }
 
