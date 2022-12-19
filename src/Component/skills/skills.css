@@ -74,7 +74,9 @@ color: var(--title-color);
     .skills__group{
         grid-template-columns: 1fr; 
         gap:15px;
-        line-height: 28px;      
+        line-height: 28px;   
+        justify-items: start;  
+        margin-left: -140px; 
     }
 
     .skills__name{
