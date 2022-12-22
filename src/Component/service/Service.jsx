@@ -4,7 +4,7 @@ const Service = () => {
   return (
     <section className="services section" id='services'>
         <h2 className='section__title'>Services</h2>
-        <span className='section__subtitle'>What i offer</span>
+        <span className='section__subtitle'>What i offer </span>
 
 
         <div className='services__container container grid'>
@@ -19,9 +19,7 @@ const Service = () => {
 
 
         <div className='services__modal'>
-          
           <div className="services__modal-content">
-
             <i className='uil uil-items services__modal-close'></i>
 
             <h3 className='services__modal-title'></h3>
