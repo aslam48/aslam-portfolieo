@@ -1,5 +1,5 @@
 .services__container{
-    grid-template-columns:repeat(3, 270px);
+    grid-template-columns:repeat(2, 270px);
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -9,10 +9,6 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
-}
-
-.services__modal{
-
 }
 
 .services__icon{
@@ -160,6 +156,20 @@
 
     .services__modal-description{
         padding: 0;
+    }
+    
+    .services__content{
+        position: relative;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: var(--container-color);
+        padding:3rem 0 1rem 1.0rem;
+        width: 300px;
+        margin:0 auto;
+        border-radius: 5px;
+    }
+     
+    .services__container{
+        grid-template-columns: 1fr
     }
   }
   
