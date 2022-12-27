@@ -1,4 +1,5 @@
 import React from 'react'
+import './quaification.css'
 
 const qualification = () => {
   return (
@@ -20,21 +21,180 @@ const qualification = () => {
 
         <div className='qualification__sections'>
           <div className='qualification__content'>
+
+            
+          <div className='qualification__data'>
+
+<div>
+  <h3 className='qualification__title'>web Design </h3>
+    <span className='qualification__subtitle'>Spain - instutuin</span>
+    <div className='qualification__calender'>
+      <i className='uil uil-calender-alt'></i>2021 -  present
+    </div>
+</div>
+
+<div>
+  <span className='qualification__rounder'></span>
+  <span className='qualification__line'></span>
+</div>
+
+           </div>
+
+           
+
             <div className='qualification__data'>
+              <div></div>
+
+            <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+           </div>
 
               <div>
-                <h3 className='qualification__title'> </h3>
+                <h3 className='qualification__title'> Art Director</h3>
                   <span className='qualification__subtitle'>Spain - instutuin</span>
                   <div className='qualification__calender'>
                     <i className='uil uil-calender-alt'></i>2021 -  present
                   </div>
               </div>
 
-       <div></div>
-            </div>
-          </div>
-        </div>
+            
 
+            </div>
+
+
+            <div className='qualification__data'>
+
+<div>
+  <h3 className='qualification__title'>web Developer </h3>
+    <span className='qualification__subtitle'>Spain - instutuin</span>
+    <div className='qualification__calender'>
+      <i className='uil uil-calender-alt'></i>2021 -  present
+    </div>
+</div>
+
+<div>
+  <span className='qualification__rounder'></span>
+  <span className='qualification__line'></span>
+</div>
+
+           </div>
+
+           
+
+            <div className='qualification__data'>
+              <div></div>
+
+            <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+           </div>
+
+              <div>
+                <h3 className='qualification__title'> Blockchain </h3>
+                  <span className='qualification__subtitle'>Spain - instutuin</span>
+                  <div className='qualification__calender'>
+                    <i className='uil uil-calender-alt'></i>2021 -  present
+                  </div>
+              </div>
+
+            
+
+            </div>
+
+
+
+          </div>
+
+
+
+
+          <div className='qualification__content'>
+
+            
+<div className='qualification__data'>
+
+<div>
+<h3 className='qualification__title'>product Design </h3>
+<span className='qualification__subtitle'>micro - instutuin</span>
+<div className='qualification__calender'>
+<i className='uil uil-calender-alt'></i>2021 -  present
+</div>
+</div>
+
+<div>
+<span className='qualification__rounder'></span>
+<span className='qualification__line'></span>
+</div>
+
+ </div>
+
+ 
+
+  <div className='qualification__data'>
+    <div></div>
+
+  <div>
+      <span className='qualification__rounder'></span>
+      <span className='qualification__line'></span>
+ </div>
+
+    <div>
+      <h3 className='qualification__title'> science Director</h3>
+        <span className='qualification__subtitle'>apple - instutuin</span>
+        <div className='qualification__calender'>
+          <i className='uil uil-calender-alt'></i>2021 -  present
+        </div>
+    </div>
+
+  
+
+  </div>
+
+
+  <div className='qualification__data'>
+
+<div>
+<h3 className='qualification__title'>web nacker </h3>
+<span className='qualification__subtitle'>figma</span>
+<div className='qualification__calender'>
+<i className='uil uil-calender-alt'></i>2021 -  present
+</div>
+</div>
+
+<div>
+<span className='qualification__rounder'></span>
+<span className='qualification__line'></span>
+</div>
+
+ </div>
+
+ 
+
+  <div className='qualification__data'>
+    <div></div>
+
+  <div>
+      <span className='qualification__rounder'></span>
+      <span className='qualification__line'></span>
+ </div>
+
+    <div>
+      <h3 className='qualification__title'> Blockchain </h3>
+        <span className='qualification__subtitle'>Spain - instutuin</span>
+        <div className='qualification__calender'>
+          <i className='uil uil-calender-alt'></i>2021 -  present
+        </div>
+    </div>
+
+  
+
+  </div>
+
+
+
+</div>
+        </div>
         </div> 
     </section>
   )
